@@ -28,16 +28,24 @@ README.md – This file
 
 ![Command Line](https://github.com/IsaacMorrow0/Mini-siem/blob/main/images/Example.png?raw=true) 
 
-# 🧠 How It Works (Quick Summary)
-Reads SSH log file line by line
+# 📘 What I Learned
+- While building this Mini SIEM project, I learned:
 
-Looks for lines with "Failed password"
+- How to parse system logs using Python and regular expressions
 
-Uses regex to extract the IP address and username
+- How to detect brute-force login patterns by tracking failed SSH attempts
 
-Tracks failed login attempts per IP
+- How to send real-time alerts to Slack using incoming webhooks
 
-If an IP reaches 5 failed attempts, sends an alert to Slack
+- How SIEM systems use thresholds and detection logic to identify threats
+
+- How to organize a Python project and write readable, modular code
+
+- How to test and simulate real-world scenarios using sample log data
+
+- How to push and document a project on GitHub for others to review
+
+- This project helped me understand core security concepts like detection engineering, log analysis, and automated alerting — all essential skills for blue team cybersecurity work.
 
 # 🔧 To Add Next (Ideas)
 Only alert if failures happen within 60 seconds
