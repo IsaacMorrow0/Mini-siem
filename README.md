@@ -12,7 +12,7 @@ Great for learning cybersecurity, log analysis, and basic alerting!
 
 - Sends a Slack alert if any IP reaches the limit (default is 5 tries)
 
-# Files
+# 📁 Files
 log_monitor.py – Main script that does the log reading and detection
 
 alert_engine.py – Sends messages to Slack
@@ -23,8 +23,10 @@ requirements.txt – Python libraries you need
 
 README.md – This file
 
-# 💻 Demo of SlackBot 
+# 💻 Demos
 ![Slack Bot Alert](https://github.com/IsaacMorrow0/Mini-siem/blob/main/images/siem-slackex.png?raw=true)
+
+![Command Line](https://github.com/IsaacMorrow0/Mini-siem/blob/main/images/Example.png?raw=true) 
 
 # 🧠 How It Works (Quick Summary)
 Reads SSH log file line by line
@@ -37,7 +39,7 @@ Tracks failed login attempts per IP
 
 If an IP reaches 5 failed attempts, sends an alert to Slack
 
-#🔧 To Add Next (Ideas)
+# 🔧 To Add Next (Ideas)
 Only alert if failures happen within 60 seconds
 
 Add IP location lookup (GeoIP)
