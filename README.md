@@ -23,7 +23,7 @@ requirements.txt – Python libraries you need
 
 README.md – This file
 
-# DEMO 
+# 💻 Demo of SlackBot 
 ![Slack Bot Alert](https://github.com/IsaacMorrow0/Mini-siem/blob/main/images/siem-slackex.png?raw=true)
 
 # 🧠 How It Works (Quick Summary)
