@@ -23,7 +23,8 @@ requirements.txt – Python libraries you need
 
 README.md – This file
 
-#DEMO
+# DEMO 
+![Slack Bot Alert](https://github.com/IsaacMorrow0/Mini-siem/blob/main/images/siem-slackex.png?raw=true)
 
 # 🧠 How It Works (Quick Summary)
 Reads SSH log file line by line
